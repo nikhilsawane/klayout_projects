@@ -48,4 +48,30 @@ The `main` branch contains only metadata, documentation, and release notes.
 Release tags (e.g., `v1.0.0`) will be applied only to stable commits merged into `main`.
 
 
+## 🔁 Pull Layout Folders into Local Workspace
+
+Use these Git aliases to pull the latest folder contents into `local-dev`:
+
+```bash
+git pull35   # Pulls KLayout_35um_Designs from 35um-devices
+git pull50   # Pulls KLayout_50um_Designs from 50um-devices
+git pull75   # Pulls KLayout_75um_Designs from 75um-devices
+```
+
+---
+
+
+## 🚀 Push Changes
+
+### 🔄 Push Updated Layout Folders to Their Respective Branches
+
+After editing a layout folder in `local-dev`, use:
+
+```bash
+git push35   # Pushes updates from local-dev to 35um-devices
+git push50   # Pushes updates from local-dev to 50um-devices
+git push75   # Pushes updates from local-dev to 75um-devices
+```
+
+
 
