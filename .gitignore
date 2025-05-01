@@ -1,0 +1,11 @@
+# KLayout backups and autosave
+*.bak
+*.lyp~
+*.gds~
+*.tmp
+
+# System/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+__pycache__/
